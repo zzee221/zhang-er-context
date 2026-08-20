@@ -10,13 +10,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=2">
+  <link rel="stylesheet" href="assets/style.css?v=3">
 </head>
 <body>
   <header class="site-head">
     <div class="container head-inner">
       <a class="logo" href="./">张二的上下文</a>
-      <nav class="filters" id="filters" aria-label="分类"></nav>
+      <div class="head-actions">
+        <nav class="filters" id="filters" aria-label="分类"></nav>
+        <button type="button" class="random-btn" data-random title="随机读一篇"><span class="r-ico">↻</span> 随机阅读</button>
+      </div>
     </div>
   </header>
 
@@ -32,6 +35,6 @@
   </footer>
 
   <script src="data/config.js"></script>
-  <script src="assets/app.js?v=2"></script>
+  <script src="assets/app.js?v=3"></script>
 </body>
 </html>
