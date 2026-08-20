@@ -74,6 +74,20 @@ img { display: block; }
 }
 .back:hover { color: var(--klein); }
 
+/* 页头右侧操作区（分类筛选 + 随机阅读） */
+.head-actions { display: flex; align-items: baseline; gap: 26px; flex-wrap: wrap; }
+.random-btn {
+  font-family: var(--mono); font-size: 13px; color: var(--ink-2);
+  background: none; border: none; cursor: pointer; padding: 0 0 2px;
+  letter-spacing: .05em; transition: color .2s; white-space: nowrap;
+}
+.random-btn:hover { color: var(--klein); }
+.random-btn:disabled { opacity: .45; cursor: default; }
+.random-btn .r-ico { display: inline-block; transition: transform .45s ease; }
+.random-btn:hover .r-ico { transform: rotate(360deg); }
+.random-btn:disabled .r-ico { animation: r-spin .9s linear infinite; }
+@keyframes r-spin { to { transform: rotate(360deg); } }
+
 /* ============ 封面墙 ============ */
 
 .wall {
@@ -254,6 +268,7 @@ img { display: block; }
 @media (max-width: 640px) {
   .head-inner { padding-block: 22px; }
   .filters { gap: 18px; }
+  .head-actions { gap: 18px; }
   .wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 18px; padding-block: 40px 64px; }
   .article { padding: 48px 0 72px; }
   .prose { font-size: 16px; }

@@ -94,11 +94,46 @@
     });
   }
 
+  /* ---------- 文章索引（首页 / 文章页 / 随机阅读共用，单页只请求一次） ---------- */
+
+  var indexCache = null;
+  function loadIndex() {
+    if (!indexCache) {
+      indexCache = fetch('posts/index.json', { cache: 'no-cache' }).then(function (r) {
+        if (!r.ok) throw new Error('index missing');
+        return r.json();
+      });
+      indexCache.catch(function () {}); // 挂空 catch，避免未处理拒绝告警
+    }
+    return indexCache;
+  }
+
+  /* ---------- 随机阅读 ---------- */
+
+  function initRandom() {
+    var btn = document.querySelector('[data-random]');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      btn.disabled = true;
+      loadIndex().then(function (posts) {
+        if (!posts.length) { btn.disabled = false; return; }
+        // 避开当前文章与上一次的随机结果（文章池只剩它们时除外）
+        var cur = new URLSearchParams(location.search).get('id');
+        var last = null;
+        try { last = sessionStorage.getItem('random-last'); } catch (e) { /* 隐私模式 */ }
+        var pool = posts.filter(function (p) { return p.id !== cur && p.id !== last; });
+        if (!pool.length) pool = posts;
+        var pick = pool[Math.floor(Math.random() * pool.length)];
+        try { sessionStorage.setItem('random-last', pick.id); } catch (e) { /* 忽略 */ }
+        location.href = 'post.html?id=' + encId(pick.id);
+      }).catch(function () { btn.disabled = false; });
+    });
+  }
+
   /* ---------- 首页：封面墙 ---------- */
 
   function initWall() {
-    fetch('posts/index.json', { cache: 'no-cache' })
-      .then(function (r) { return r.ok ? r.json() : []; })
+    loadIndex()
       .then(render)
       .catch(function () {
         document.getElementById('wall').innerHTML =
@@ -165,9 +200,7 @@
         if (!r.ok) throw new Error('not found');
         return r.json();
       }),
-      fetch('posts/index.json', { cache: 'no-cache' }).then(function (r) {
-        return r.ok ? r.json() : [];
-      }).catch(function () { return []; })
+      loadIndex().catch(function () { return []; })
     ]).then(function (res) {
       var post = res[0], index = res[1];
 
@@ -200,6 +233,7 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('year').textContent = new Date().getFullYear();
+    initRandom();
     if (document.getElementById('wall')) initWall();
     else initArticle();
   });
