@@ -1,0 +1,11 @@
+# 构建产物（部署时自动重新生成；covers/ 与 .build-cache.json
+# 需要提交，见 README「封面规则」）
+posts/
+covers-resolved.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+_shot-*.png

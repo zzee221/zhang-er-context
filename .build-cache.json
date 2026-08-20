@@ -1,0 +1,604 @@
+{
+  "一拳超人": {
+    "type": "movie",
+    "typeSrc": "豆瓣影库",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "12",
+      "img": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2919113540.jpg",
+      "title": "一拳超人 第三季",
+      "url": "https://movie.douban.com/subject/34604875/?suggest=%E4%B8%80%E6%8B%B3%E8%B6%85%E4%BA%BA",
+      "type": "movie",
+      "year": "2025",
+      "sub_title": "ワンパンマン 第3期",
+      "id": "34604875"
+    }
+  },
+  "中国经济的逻辑与出路": {
+    "bookHit": null,
+    "movieHit": null
+  },
+  "人际网络": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "人际网络",
+      "url": "https://book.douban.com/subject/35500356/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s33936919.jpg",
+      "author_name": "[美]吉姆·兰德尔（Jim Randel）",
+      "year": "2021",
+      "type": "b",
+      "id": "35500356"
+    },
+    "movieHit": null
+  },
+  "变形记": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "变形记",
+      "url": "https://book.douban.com/subject/35218475/",
+      "pic": "https://img2.doubanio.com/view/subject/s/public/s33774031.jpg",
+      "author_name": "[奥地利] 弗朗茨·卡夫卡",
+      "year": "2020",
+      "type": "b",
+      "id": "35218475"
+    },
+    "movieHit": null
+  },
+  "可可西里": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2363208684.jpg",
+      "title": "可可西里",
+      "url": "https://movie.douban.com/subject/1308857/?suggest=%E5%8F%AF%E5%8F%AF%E8%A5%BF%E9%87%8C",
+      "type": "movie",
+      "year": "2004",
+      "sub_title": "可可西里",
+      "id": "1308857"
+    }
+  },
+  "可能性的艺术": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "可能性的艺术",
+      "url": "https://book.douban.com/subject/35819419/",
+      "pic": "https://img2.doubanio.com/view/subject/s/public/s34192061.jpg",
+      "author_name": "刘瑜",
+      "year": "2022",
+      "type": "b",
+      "id": "35819419"
+    },
+    "movieHit": null
+  },
+  "哪吒之魔童闹海": {
+    "type": "movie",
+    "typeSrc": "豆瓣影库",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2916323291.jpg",
+      "title": "哪吒之魔童闹海",
+      "url": "https://movie.douban.com/subject/34780991/?suggest=%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%97%B9%E6%B5%B7",
+      "type": "movie",
+      "year": "2025",
+      "sub_title": "哪吒之魔童闹海",
+      "id": "34780991"
+    }
+  },
+  "回忆三部曲": {
+    "type": "movie",
+    "typeSrc": "豆瓣影库",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2198104415.jpg",
+      "title": "回忆三部曲",
+      "url": "https://movie.douban.com/subject/1307897/?suggest=%E5%9B%9E%E5%BF%86%E4%B8%89%E9%83%A8%E6%9B%B2",
+      "type": "movie",
+      "year": "1995",
+      "sub_title": "Memories",
+      "id": "1307897"
+    }
+  },
+  "在黑暗中等待": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "在黑暗中等待",
+      "url": "https://book.douban.com/subject/25881335/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s27346886.jpg",
+      "author_name": "乙一",
+      "year": "2014",
+      "type": "b",
+      "id": "25881335"
+    },
+    "movieHit": null
+  },
+  "地久天长": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "地久天长",
+      "url": "https://book.douban.com/subject/3264644/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s3324653.jpg",
+      "author_name": "王小波",
+      "year": "2008",
+      "type": "b",
+      "id": "3264644"
+    },
+    "movieHit": null
+  },
+  "夏天的故事": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907316016.jpg",
+      "title": "夏天的故事",
+      "url": "https://movie.douban.com/subject/1302675/?suggest=%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%95%85%E4%BA%8B",
+      "type": "movie",
+      "year": "1996",
+      "sub_title": "Conte d'été",
+      "id": "1302675"
+    }
+  },
+  "好心情手册": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "好心情手册",
+      "url": "https://book.douban.com/subject/35044448/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s33725365.jpg",
+      "author_name": "邵夷贝",
+      "year": "2020",
+      "type": "b",
+      "id": "35044448"
+    },
+    "movieHit": null
+  },
+  "如何找到想做的事": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "如何找到想做的事",
+      "url": "https://book.douban.com/subject/36507772/",
+      "pic": "https://img2.doubanio.com/view/subject/s/public/s34874101.jpg",
+      "author_name": "八木仁平",
+      "year": "2023",
+      "type": "b",
+      "id": "36507772"
+    },
+    "movieHit": null
+  },
+  "如何正确的求助": {
+    "type": "book",
+    "typeSrc": "未匹配→默认书",
+    "bookHit": {
+      "title": "如何正确求助",
+      "url": "https://book.douban.com/subject/35620506/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s34012997.jpg",
+      "author_name": "[英] 海蒂·格兰特",
+      "year": "2021",
+      "type": "b",
+      "id": "35620506"
+    },
+    "movieHit": null
+  },
+  "如何结束一段关系": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "如何结束一段关系：亲密关系的丧失与重建",
+      "url": "https://book.douban.com/subject/36535730/",
+      "pic": "https://img2.doubanio.com/view/subject/s/public/s35379461.jpg",
+      "author_name": "[美]苏珊·J.埃丽奥特（Susan J. Elliott）",
+      "year": "2023",
+      "type": "b",
+      "id": "36535730"
+    },
+    "movieHit": null
+  },
+  "寂寞的频率": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "寂寞的频率",
+      "url": "https://book.douban.com/subject/11498200/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s11298544.jpg",
+      "author_name": "[日] 乙一",
+      "year": "2012",
+      "type": "b",
+      "id": "11498200"
+    },
+    "movieHit": null
+  },
+  "小强升职记": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "小强升职记",
+      "url": "https://book.douban.com/subject/25852981/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s35253653.jpg",
+      "author_name": "邹鑫",
+      "year": "2014",
+      "type": "b",
+      "id": "25852981"
+    },
+    "movieHit": null
+  },
+  "局外人": {
+    "type": "book",
+    "typeSrc": "同名投票",
+    "bookHit": {
+      "title": "局外人",
+      "url": "https://book.douban.com/subject/4908885/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s4468484.jpg",
+      "author_name": "[法] 阿尔贝·加缪",
+      "year": "2010",
+      "type": "b",
+      "id": "4908885"
+    },
+    "movieHit": {
+      "episode": "",
+      "img": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924647736.jpg",
+      "title": "局外人",
+      "url": "https://movie.douban.com/subject/37284351/?suggest=%E5%B1%80%E5%A4%96%E4%BA%BA",
+      "type": "movie",
+      "year": "2025",
+      "sub_title": "L'Étranger",
+      "id": "37284351"
+    }
+  },
+  "强势": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "强势",
+      "url": "https://book.douban.com/subject/25925226/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s27321995.jpg",
+      "author_name": "（美）曼纽尔 • J • 史密斯",
+      "year": "2014",
+      "type": "b",
+      "id": "25925226"
+    },
+    "movieHit": null
+  },
+  "教你如何混饭吃": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "教你如何“混饭吃”",
+      "url": "https://book.douban.com/subject/1426312/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s9981350.jpg",
+      "author_name": "陈旭光",
+      "year": "2005",
+      "type": "b",
+      "id": "1426312"
+    },
+    "movieHit": null
+  },
+  "无人生还": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "无人生还",
+      "url": "https://book.douban.com/subject/3006581/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s2962510.jpg",
+      "author_name": "[英] 阿加莎·克里斯蒂",
+      "year": "2008",
+      "type": "b",
+      "id": "3006581"
+    },
+    "movieHit": null
+  },
+  "无间道": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2597979873.jpg",
+      "title": "无间道",
+      "url": "https://movie.douban.com/subject/1307914/?suggest=%E6%97%A0%E9%97%B4%E9%81%93",
+      "type": "movie",
+      "year": "2002",
+      "sub_title": "無間道",
+      "id": "1307914"
+    }
+  },
+  "未来病史": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "未来病史",
+      "url": "https://book.douban.com/subject/26417638/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s28111782.jpg",
+      "author_name": "陈楸帆",
+      "year": "2015",
+      "type": "b",
+      "id": "26417638"
+    },
+    "movieHit": null
+  },
+  "机器人之梦": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": {
+      "title": "机器人之梦",
+      "url": "https://book.douban.com/subject/37056740/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s34988160.jpg",
+      "author_name": "[美] 萨拉·瓦伦",
+      "year": "2024",
+      "type": "b",
+      "id": "37056740"
+    },
+    "movieHit": {
+      "episode": "",
+      "img": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2928203369.jpg",
+      "title": "机器人之梦",
+      "url": "https://movie.douban.com/subject/35426925/?suggest=%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B9%8B%E6%A2%A6",
+      "type": "movie",
+      "year": "2023",
+      "sub_title": "Robot Dreams",
+      "id": "35426925"
+    }
+  },
+  "格外的活法": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "格外的活法",
+      "url": "https://book.douban.com/subject/36331621/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s35056796.jpg",
+      "author_name": "[日] 吉井忍",
+      "year": "2025",
+      "type": "b",
+      "id": "36331621"
+    },
+    "movieHit": null
+  },
+  "毅力": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "毅力",
+      "url": "https://book.douban.com/subject/35514236/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s33936985.jpg",
+      "author_name": "[美]吉姆·兰德尔",
+      "year": "2021",
+      "type": "b",
+      "id": "35514236"
+    },
+    "movieHit": null
+  },
+  "沟通的方法": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "沟通的方法",
+      "url": "https://book.douban.com/subject/35473807/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s33907614.jpg",
+      "author_name": "脱不花",
+      "year": "2021",
+      "type": "b",
+      "id": "35473807"
+    },
+    "movieHit": null
+  },
+  "流逝": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "流逝",
+      "url": "https://book.douban.com/subject/5910767/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s6379979.jpg",
+      "author_name": "王安忆",
+      "year": "2011",
+      "type": "b",
+      "id": "5910767"
+    },
+    "movieHit": null
+  },
+  "灵能百分百": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "12",
+      "img": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2358698477.jpg",
+      "title": "灵能百分百",
+      "url": "https://movie.douban.com/subject/26677934/?suggest=%E7%81%B5%E8%83%BD%E7%99%BE%E5%88%86%E7%99%BE",
+      "type": "movie",
+      "year": "2016",
+      "sub_title": "モブサイコ100",
+      "id": "26677934"
+    }
+  },
+  "特工": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2534350834.jpg",
+      "title": "特工",
+      "url": "https://movie.douban.com/subject/26683421/?suggest=%E7%89%B9%E5%B7%A5",
+      "type": "movie",
+      "year": "2018",
+      "sub_title": "공작",
+      "id": "26683421"
+    }
+  },
+  "破圈": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "破圈",
+      "url": "https://book.douban.com/subject/35635787/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s35350253.jpg",
+      "author_name": "顾及",
+      "year": "2021",
+      "type": "b",
+      "id": "35635787"
+    },
+    "movieHit": null
+  },
+  "稀缺": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "稀缺",
+      "url": "https://book.douban.com/subject/36110828/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s34550935.jpg",
+      "author_name": "[美]塞德希尔·穆来纳森",
+      "year": "2022",
+      "type": "b",
+      "id": "36110828"
+    },
+    "movieHit": null
+  },
+  "繁花": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": {
+      "title": "繁花",
+      "url": "https://book.douban.com/subject/22714154/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s26037307.jpg",
+      "author_name": "金宇澄",
+      "year": "2013",
+      "type": "b",
+      "id": "22714154"
+    },
+    "movieHit": {
+      "episode": "30",
+      "img": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2902705337.jpg",
+      "title": "繁花",
+      "url": "https://movie.douban.com/subject/34874646/?suggest=%E7%B9%81%E8%8A%B1",
+      "type": "movie",
+      "year": "2023",
+      "sub_title": "繁花",
+      "id": "34874646"
+    }
+  },
+  "纪实72小时": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "13",
+      "img": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2524049488.jpg",
+      "title": "纪实72小时(中国版)",
+      "url": "https://movie.douban.com/subject/30217561/?suggest=%E7%BA%AA%E5%AE%9E72%E5%B0%8F%E6%97%B6",
+      "type": "movie",
+      "year": "2018",
+      "sub_title": "纪实72小时(中国版)",
+      "id": "30217561"
+    }
+  },
+  "绿毛水怪": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "绿毛水怪",
+      "url": "https://book.douban.com/subject/30163860/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s29774838.jpg",
+      "author_name": "王小波",
+      "year": "2018",
+      "type": "b",
+      "id": "30163860"
+    },
+    "movieHit": null
+  },
+  "置身事内": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "置身事内",
+      "url": "https://book.douban.com/subject/35546622/",
+      "pic": "https://img3.doubanio.com/view/subject/s/public/s33956867.jpg",
+      "author_name": "兰小欢",
+      "year": "2021",
+      "type": "b",
+      "id": "35546622"
+    },
+    "movieHit": null
+  },
+  "羞涩与社交焦虑": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "羞涩与社交焦虑",
+      "url": "https://book.douban.com/subject/4736432/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s4247978.jpg",
+      "author_name": "马丁 安东尼 等",
+      "year": "2010",
+      "type": "b",
+      "id": "4736432"
+    },
+    "movieHit": null
+  },
+  "自信的陷阱": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "自信的陷阱",
+      "url": "https://book.douban.com/subject/34846270/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s35285099.jpg",
+      "author_name": "[澳] 路斯·哈里斯",
+      "year": "2019",
+      "type": "b",
+      "id": "34846270"
+    },
+    "movieHit": null
+  },
+  "苏菲的世界": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "苏菲的世界",
+      "url": "https://book.douban.com/subject/27172839/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s29580784.jpg",
+      "author_name": "[挪威] 乔斯坦·贾德",
+      "year": "2017",
+      "type": "b",
+      "id": "27172839"
+    },
+    "movieHit": null
+  },
+  "颠倒的帕特玛": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "",
+      "img": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2043944718.jpg",
+      "title": "颠倒的帕特玛",
+      "url": "https://movie.douban.com/subject/10001432/?suggest=%E5%B8%95%E7%89%B9%E7%8E%9B",
+      "type": "movie",
+      "year": "2013",
+      "sub_title": "サカサマのパテマ",
+      "id": "10001432"
+    }
+  },
+  "离线找真爱": {
+    "type": "movie",
+    "typeSrc": "手动",
+    "bookHit": null,
+    "movieHit": {
+      "episode": "10",
+      "img": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2917709203.jpg",
+      "title": "线下恋爱",
+      "url": "https://movie.douban.com/subject/37213479/?suggest=%E7%BA%BF%E4%B8%8B%E6%81%8B%E7%88%B1",
+      "type": "movie",
+      "year": "2025",
+      "sub_title": "オフライン ラブ",
+      "id": "37213479"
+    }
+  }
+}
