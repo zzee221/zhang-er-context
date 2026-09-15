@@ -20,6 +20,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { marked } from 'marked';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
@@ -126,47 +127,44 @@ function voteCounts(content) {
 /* 豆瓣条目封面地址：影库字段是 img，书库字段是 pic */
 const hitImg = h => (h && (h.img || h.pic)) || '';
 
-/* ---------- 极简 markdown 渲染 ---------- */
-
-function esc(s) {
-  return String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-}
-
-function inline(s) {
-  return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-}
+/* ---------- Markdown 渲染（使用 marked，支持 GFM 表格/列表/代码块） ---------- */
 
 function renderMd(text) {
-  const blocks = String(text || '').split(/\n{2,}/).map(b => b.replace(/^\n+|\n+$/g, '')).filter(Boolean);
-  const out = [];
-  let list = null;
-  const closeList = () => { if (list) { out.push('<ul>' + list.join('') + '</ul>'); list = null; } };
-  for (const b of blocks) {
-    const lines = b.split('\n');
-    if (lines.every(l => /^\s*[-*]\s+/.test(l))) {
-      if (!list) list = [];
-      lines.forEach(l => list.push('<li>' + inline(l.replace(/^\s*[-*]\s+/, '')) + '</li>'));
-      continue;
+  // 兼容旧写法：长破折号行后同行跟的说明文字，拆成 hr + 说明段落
+  const pre = String(text || '').replace(
+    /^(\s*)([-—─]{6,})([^\n]*)$/gm,
+    (_, space, dashes, note) => {
+      const n = note.trim();
+      return n ? `${space}---\n\n${space}${n}` : `${space}---`;
     }
-    closeList();
-    if (/^[-—─]{6,}/.test(lines[0])) {
-      // 单独一行长破折号 → 分界线；同行跟的说明文字（如「以下是节选…」）
-      // 保留为小注，纯标记词（如「分割线」）丢弃；后续行递归渲染
-      out.push('<hr class="ps-rule">');
-      const head = lines[0].replace(/^[-—─]{6,}/, '').trim();
-      if (head && !/^(分割线|分界线|分隔线)$/.test(head)) out.push('<p class="ps-note">' + inline(head) + '</p>');
-      const rest = lines.slice(1).join('\n');
-      if (rest.trim()) out.push(renderMd(rest));
-    } else if (/^#{2,3}\s+/.test(b)) {
-      out.push('<h3>' + inline(b.replace(/^#{2,3}\s+/, '')) + '</h3>');
-    } else if (/^>\s?/.test(b)) {
-      out.push('<blockquote>' + inline(b.replace(/^>\s?/gm, '')) + '</blockquote>');
-    } else {
-      out.push('<p>' + inline(lines.join('')) + '</p>');
+  );
+
+  marked.setOptions({
+    gfm: true,
+    breaks: false,
+    headerIds: false,
+    mangle: false
+  });
+
+  const renderer = new marked.Renderer();
+  renderer.hr = () => '<hr class="ps-rule">';
+
+  let html = marked.parse(pre, { renderer });
+
+  // 给表格加样式类
+  html = html.replace(/<table>/g, '<table class="data-table">');
+
+  // 把 hr 后面紧跟着的说明段落标记为 ps-note；纯标记词则丢弃
+  html = html.replace(
+    /(<hr class="ps-rule">)\s*<p>([^<]+)<\/p>/g,
+    (_, hr, note) => {
+      const t = note.trim();
+      if (/^(分割线|分界线|分隔线)$/.test(t)) return hr;
+      return hr + '<p class="ps-note">' + t + '</p>';
     }
-  }
-  closeList();
-  return out.join('\n');
+  );
+
+  return html.trim();
 }
 
 /* ---------- 主流程 ---------- */

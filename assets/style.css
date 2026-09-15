@@ -200,13 +200,75 @@ img { display: block; }
   color: var(--ink-2); font-size: .94em; line-height: 1.95;
 }
 .prose blockquote p { text-indent: 0; }
-.prose h3 {
+.prose h2,
+.prose h3,
+.prose h4 {
   font-weight: 600; font-size: 1.12em; letter-spacing: .12em;
   margin: 2.2em 0 1em; text-align: center;
 }
-.prose ul { margin: 0 0 1.1em 2em; }
+.prose h2 { font-size: 1.25em; margin-top: 2.4em; }
+.prose h4 { font-size: 1em; color: var(--ink-2); }
+
+.prose ul, .prose ol { margin: 0 0 1.1em 2em; }
 .prose li { margin-bottom: .5em; line-height: 1.9; }
+.prose ul ul, .prose ol ol, .prose ul ol, .prose ol ul {
+  margin-top: .4em; margin-bottom: .4em;
+}
+.prose li > p { text-indent: 0; margin-bottom: .2em; }
+
 .prose strong { font-weight: 600; }
+.prose em { font-style: italic; }
+.prose a {
+  color: var(--klein); text-decoration: underline;
+  text-underline-offset: 3px; text-decoration-color: rgba(0,47,167,.35);
+  transition: text-decoration-color .2s;
+}
+.prose a:hover { text-decoration-color: var(--klein); }
+
+/* 表格（GFM） */
+.prose .data-table {
+  width: 100%; border-collapse: collapse;
+  font-size: .92em; line-height: 1.75;
+  margin: 1.6em 0 1.8em;
+}
+.prose .data-table th,
+.prose .data-table td {
+  padding: .65em .9em; border: 1px solid var(--hairline);
+  text-align: left; vertical-align: top;
+}
+.prose .data-table th {
+  font-weight: 600; background: var(--surface);
+  font-family: var(--serif); letter-spacing: .06em;
+}
+.prose .data-table tr:nth-child(even) td { background: rgba(243,242,238,.45); }
+
+/* 代码 */
+.prose code {
+  font-family: var(--mono); font-size: .88em;
+  background: var(--surface); padding: .1em .35em; border-radius: 3px;
+  color: var(--ink);
+}
+.prose pre {
+  background: var(--surface); border: 1px solid var(--hairline);
+  border-radius: 4px; padding: 1em 1.2em;
+  overflow-x: auto; margin: 1.4em 0 1.6em;
+}
+.prose pre code {
+  background: none; padding: 0; font-size: .82em;
+  line-height: 1.7;
+}
+
+/* 任务列表 */
+.prose .task-list-item { list-style: none; }
+.prose .task-list-item input[type="checkbox"] {
+  margin-right: .5em; vertical-align: middle;
+}
+.prose ul.contains-task-list { list-style: none; margin-left: .2em; }
+
+/* 图片 */
+.prose img {
+  max-width: 100%; height: auto; display: block; margin: 1.2em auto;
+}
 
 /* 正文内分界线（原稿里单独一行的长破折号） */
 .prose hr.ps-rule {

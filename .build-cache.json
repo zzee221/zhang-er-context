@@ -600,5 +600,33 @@
       "sub_title": "オフライン ラブ",
       "id": "37213479"
     }
+  },
+  "被爱是一种能力": {
+    "type": "book",
+    "typeSrc": "豆瓣书库",
+    "bookHit": {
+      "title": "被爱是一种能力",
+      "url": "https://book.douban.com/subject/37898055/",
+      "pic": "https://img9.doubanio.com/view/subject/s/public/s35335084.jpg",
+      "author_name": "丛非从",
+      "year": "2025",
+      "type": "b",
+      "id": "37898055"
+    },
+    "movieHit": null
+  },
+  "东京爱情故事": {
+    "type": "movie",
+    "typeSrc": "关键词否决书库",
+    "bookHit": {
+      "title": "东京爱情故事",
+      "url": "https://book.douban.com/subject/25893251/",
+      "pic": "https://img1.doubanio.com/view/subject/s/public/s28272950.jpg",
+      "author_name": "[日] 柴门文",
+      "year": "2015",
+      "type": "b",
+      "id": "25893251"
+    },
+    "movieHit": null
   }
 }
